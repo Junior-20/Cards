@@ -1,0 +1,117 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/pattern-background-desktop.svg);
+    background-repeat: no-repeat; 
+    background-color:hsl(225, 100%, 94%) ;
+}
+.card{
+    background-color: white;
+    width: 381px;
+    height:488px;
+    margin-top: 70px;
+    border-radius: 1.25rem;
+    overflow: hidden;
+
+}
+.img1{
+width: 100%;
+height: 155px;
+margin-bottom: 18px;
+}
+
+.textos{
+  margin:auto;
+  width: 300px;
+  height: 103px;
+  text-align: center; 
+  margin-bottom: 18px;
+}
+.color{
+    color: rgb(114, 128, 167);
+}
+h1{
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+
+.anual{
+   display: flex; 
+   width: 295px;
+   height: 63px;
+   background-color:hsl(226, 100%, 97%);
+   margin: auto;
+   justify-content: space-between;
+   border-radius: 1.25rem ;
+   padding:15px;
+   margin-bottom: 18px;
+   align-items: center;
+   
+}
+.negro{
+    color:black;
+}
+.button{
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    width: 295px;
+    margin: auto;
+    align-items: center;
+}
+.btn1{
+display: block;
+text-decoration: none;
+width: 285px;
+height: 35px;
+background-color: blue;
+text-align: center;
+padding: 8px;
+border-radius: 8px;
+margin-bottom: 18px;
+color:white;
+font-weight: 600;
+box-shadow: 0 20px 20px 0 rgba(56, 42, 225, 19%);
+
+}
+.btn2{
+    display: block;
+    text-decoration: none;
+    width: 285px;
+    height: 35px;
+    background-color:none;
+    text-align: center;
+    justify-content:center;
+    margin-bottom: 18px;
+    color:rgb(114, 128, 167);
+    }
+    
+@media screen and (max-width:450px){
+
+    .card{
+        background-color:white;
+        width: 290px;
+        height:488px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .textos{
+        width: 270px;
+      }
+      .anual{  
+        width: 275px;
+     }
+     .btn1 ,btn2{
+        width: 265px;
+     }
+}
+
